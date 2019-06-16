@@ -16,14 +16,19 @@ def first_challenge
   }
 
   #your code here
-    strawberry_flavor = contacts["Freddy Mercury"][:favorite_icecream_flavors]
 
-    strawberry_flavor.filter! {|x| x != "strawberry"} 
-      
+ 
+      contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry")
   
-    
-              
+  
+  
 
+    
+
+
+
+    #strawberry_flavor = contacts["Freddy Mercury"][:favorite_icecream_flavors]
+    #strawberry_flavor.filter! {|x| x != "strawberry"} 
   #remember to return your newly altered contacts hash!
   contacts
 end
