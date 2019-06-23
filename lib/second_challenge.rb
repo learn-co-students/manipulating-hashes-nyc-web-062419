@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+#  groceries.each do |food_type, product|
+#    product.values
+#  end
+newlist = []
+groceries.values << newlist
 
 end
