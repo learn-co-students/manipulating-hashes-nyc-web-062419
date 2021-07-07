@@ -8,6 +8,14 @@ def second_challenge
 
   #code your solution here!
 
-  
+  full_list = []
+
+  groceries.values.each do |type|
+    type.each do |item|
+      full_list.push(item)
+    end
+  end
+
+  full_list
 
 end
