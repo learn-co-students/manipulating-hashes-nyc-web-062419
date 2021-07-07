@@ -1,3 +1,5 @@
+require 'pry'
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -7,7 +9,9 @@ def second_challenge
   }
 
   #code your solution here!
+#  groceries.each do |food_type, product|
+#    product.values
+#  end
 
-  
-
+groceries.values.flatten
 end
